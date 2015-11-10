@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Tic Tac Toe</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+	<div class="container">
+
+
+	<header>
+		<h1>Tic Tac Toe</h1>
+		<p><a href="">View on Github</a> / <a href="">Read the blog post</a></p>
+	</header>
+
+
+
+	<div class="board-container">
+
+		<div class="grid">
+		
+		<div class="square" data-square="1" data-player="">1</div>
+		<div class="square" data-square="2" data-player="">2</div>
+		<div class="square" data-square="3" data-player="">3</div>
+
+		<br>
+
+		<div class="square" data-square="4" data-player="">4</div>
+		<div class="square" data-square="5" data-player="">5</div>
+		<div class="square" data-square="6" data-player="">6</div>
+
+		<br>
+
+		<div class="square" data-square="7" data-player="">7</div>
+		<div class="square" data-square="8" data-player="">8</div>
+		<div class="square" data-square="9" data-player="">9</div>
+
+
+
+		</div>
+
+		<button class="reset-board-button">Reset Board</button>
+
+		
+	</div><!--
+
+	--><div class="scoreboard-container">
+
+		<table class="scoreboard scores">
+			<thead>
+				<tr>
+					<th>Game</th>
+					<th>X</th>
+					<th>O</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+
+		<table class="scoreboard">
+			<tbody>
+				<tr>
+					<td>Total</td>
+					<td><span class="x-wins">0</span></td>
+					<td><span class="o-wins">0</span></td>
+				</tr>
+			</tbody>
+		</table>
+
+
+		
+		
+		
+	</div>
+
+
+	</div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="tictactoe.js"></script>
+</body>
+</html>
